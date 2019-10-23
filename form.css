@@ -1,0 +1,157 @@
+html {
+  font-size: 20px;
+  text-align: center;
+  font-family: arial;
+}
+
+#form-outer {
+  margin: 0 auto;
+  border-radius: 4px;
+  width: 100%;
+}
+
+#description {
+  margin-left: 200px;
+  margin-right: 200px;
+  text-align: center;
+}
+/*alignment of personal info fieldset*/
+.fieldset {
+  text-align: left;
+  margin-left: 300px;
+  margin-right: 300px;
+}
+
+/*position of labels*/
+.labels {
+  display: inline-block;
+  text-align: left;
+  width: 40%;
+  padding: 5px;
+  vertical-align: top;
+  margin-top: 10px;
+}
+/*position of text/number-fields*/
+.rightTab {
+  display: inline-block;
+  left: 550px;
+  position: absolute;
+}
+
+/*form and size of fields*/
+.input-field {
+  height: 20px;
+  width: 280px;
+  padding: 5px;
+  margin: 10px;
+  border: 2px solid #c0c0c0;
+  border-radius: 2px;
+}
+
+/*position of languages text-fields*/
+.rightTab-languages {
+  display: inline-block;
+  left: 450px;
+  position: absolute;
+}
+
+/*colors of words*/
+.beginner {
+    background-color: yellow;
+}
+
+.intermediate {
+  background-color: orange;
+}
+
+.advanced {
+  background-color: red;
+}
+
+.fluent {
+  background-color:#00FF00; 
+}
+
+/*table frame and alignment*/
+table, th, td {
+  text-align: center;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+/*colors in table*/
+#beginner {
+  background-color: yellow;
+}
+
+#intermediate {
+  background-color: orange;
+}
+
+#advanced {
+  background-color: red;
+}
+
+#fluent {
+  background-color: #00FF00;
+}
+
+.dropdown {
+  height: 35px;
+  width: 130px;
+  padding: 5px;
+  margin: 550px;  
+  margin-top: 15px;
+  border: 1px solid #c0c0c0;
+  border-radius: 2px;
+}
+
+/*position of labels*/
+.question-labels {
+  display: inline-block;
+  text-align: left;
+  width: 70%;
+  padding: 5px;
+  vertical-align: top;
+  margin-top: 10px;
+}
+
+/*position of question fields*/
+.rightTab-questions {
+  display: inline-block;
+  left: 350px;
+  position: absolute;
+}
+
+.languages {
+  float: left;
+  margin-right: 5px;
+}
+
+.radio, .checkbox {
+  position: relative;
+  margin-top: 30px;
+  display: inline-block;
+  padding-bottom: 10px;
+}
+
+#languages {
+  text-align: left;
+}
+
+#input-textarea {
+  min-height: 120px;
+  width: 100%;
+  resize: vertical;
+}
+
+.submit-button {
+  font-size: 20px;
+  display: block;
+  width: 50%;
+  padding: 0.75rem;
+  color: black;
+  border-radius: 5px;
+  cursor: pointer;
+  position: relative;
+  left: 200px;
+}
