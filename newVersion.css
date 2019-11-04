@@ -1,0 +1,97 @@
+/*applies to all elements*/
+* {
+  /*whenever there is a width it will automatically infactor the padding*/ 
+  box-sizing: border-box;
+}
+
+body {
+  background: #87CEFA;
+  color: #4169E1;
+  font-size: 20px;
+  line-height: 1.5;
+  font-family: 'Montserrat', sans-serif;
+  padding: 2em;
+}
+
+.header {
+  text-align: center;
+}
+
+.header span {
+  color: #fff;
+}
+
+.container {
+  max-width: 1170px;
+  margin-left: auto;
+  margin-left: auto;
+  padding: 1em;
+}
+
+.wrapper {
+  /*creates a "box" around the form*/
+  box-shadow: 0 0 20px 0 rgba(65,105,225);
+  width: 75%;
+}
+
+.wrapper >* {
+  padding: 1em;
+}
+
+.description {
+  background: #E0FFFF;
+  text-align: center;
+}
+
+/* Form Styles */
+.personal-info p {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-gap: 10px;
+  width: 75%;
+}
+
+input:focus {
+  border: 3px solid #FFD700;
+}
+
+.languages p {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
+  width: 75%;
+}
+
+textarea {
+  width: 250%;
+  height: 150px;
+  border-radius: 10px;
+  background: #f8f8f8;
+  font-size: 16px;
+}
+
+.button {
+  text-align: center;
+	padding: 20px;
+	margin-top: 20px;
+}
+
+#submit {
+  background: #E0FFFF;
+  border-color: #E0FFFF;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+/* stacks elements */
+@media (max-width: 800px) {
+  .personal-info p, .languages p {
+     grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 800px) {
+  textarea {
+     width: 100%;
+  }
+}
