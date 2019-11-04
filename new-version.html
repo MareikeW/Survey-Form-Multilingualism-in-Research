@@ -1,0 +1,161 @@
+<head>
+  <title>Survey Literature Research</title>
+</head>
+<body>
+  <div class="header"> 
+       <h1 id="title">Survey Form</h1>
+    <h2><span>Multilingualism</span> in Literature Research</h2>
+</div>
+  
+  <div class="container">
+    <div class="wrapper">
+      <div class="description">
+    <p id="description">Finding scientific articles for your paper isn't always easy. Especially when you only search in one language, even though you can understand several others too. What about your search for articles and books? Do you use different languages to do so? Fill in this form and let us know.</p>
+      </div>
+      
+      
+    <form id="survey-form">
+  <!------------basic data------------------------>
+      <div class="personal-info">
+      <h3>Personal Information</h3>
+      
+      <p>
+        <label id="name-label">* Name</label> 
+        <input type="text" name="name" id="name" placeholder="Enter your name" required>
+      </p>
+      
+       <p>
+        <label id="email-label">* Email</label>
+        <input type="email" name="email" id="email" placeholder="Enter your email" required>
+      </p>
+      
+       <p>
+        <label id="number-label">* Subject semester</label>
+        <input type="number" name="age" id="number" min="1" max="50" placeholder="Enter your semester" required>
+      </p>
+      
+      <p>
+      <label id="courses-label">* Course(s) of studies</label>
+        <input type="text" name="courses" id="courses" placeholder="Enter your course(s)" required>
+      </p>
+      </div>
+      
+      <!------------languages----------------------->
+    <div class="languages">
+      <h3>Languages</h3>
+      
+       <p>
+        <label>* Language 1</label> 
+        <input type="text" name="lang1" required>
+        <select id="dropdown" name="opinion" class="dropdown">
+     <option disabled selected value>My level of reading is...</option>
+      <option  value="a1">A1</option>
+      <option value="a2">A2</option>
+          <option value="b1">B1</option>
+          <option value="b2">B2</option>
+          <option value="c1">C1</option>
+          <option value="c2">C2</option>
+          <option value="undecided">Not sure</option>
+    </select>
+      </p>
+      
+        <p>
+        <label>Language 2</label> 
+        <input type="text" name="lang2">
+          <select id="dropdown" name="opinion" class="dropdown">
+     <option disabled selected value>My level of reading is...</option>
+      <option  value="a1">A1</option>
+      <option value="a2">A2</option>
+          <option value="b1">B1</option>
+          <option value="b2">B2</option>
+          <option value="c1">C1</option>
+          <option value="c2">C2</option>
+          <option value="undecided">Not sure</option>
+    </select>
+      </p>
+      
+      <p>
+        <label>Language 3</label> 
+        <input type="text" name="lang3">
+        <select id="dropdown" name="opinion" class="dropdown">
+     <option disabled selected value>My level of reading is...</option>
+      <option  value="a1">A1</option>
+      <option value="a2">A2</option>
+          <option value="b1">B1</option>
+          <option value="b2">B2</option>
+          <option value="c1">C1</option>
+          <option value="c2">C2</option>
+          <option value="undecided">Not sure</option>
+    </select>
+      </p>
+      
+      <p>
+        <label>Language 4</label> 
+        <input type="text" name="lang4">
+        <select id="dropdown" name="opinion" class="dropdown">
+     <option disabled selected value>My level of reading is...</option>
+      <option  value="a1">A1</option>
+      <option value="a2">A2</option>
+          <option value="b1">B1</option>
+          <option value="b2">B2</option>
+          <option value="c1">C1</option>
+          <option value="c2">C2</option>
+          <option value="undecided">Not sure</option>
+    </select>
+      </p>
+      
+      <p>
+        <label>Language 5</label> 
+        <input type="text" name="lang5">
+        <select id="dropdown" name="opinion" class="dropdown">
+     <option disabled selected value>My level of reading is...</option>
+      <option  value="a1">A1</option>
+      <option value="a2">A2</option>
+          <option value="b1">B1</option>
+          <option value="b2">B2</option>
+          <option value="c1">C1</option>
+          <option value="c2">C2</option>
+          <option value="undecided">Not sure</option>
+    </select>
+      </p>
+        
+       <!------------Questions----------------------->
+    <div class="questions">
+      <h3>Questions</h3>
+      
+       <div class="question">
+        <label>What is your main language when you do your research?</label> <br> 
+        <input type="radio" name="main-lang" value="1">1. Language 1<br>
+         <input type="radio" name="main-lang" value="2">2. Language 2<br>
+         <input type="radio" name="main-lang" value="3">3. Language 3<br>
+         <input type="radio" name="main-lang" value="4">4. Language 4<br>
+         <input type="radio" name="main-lang" value="5">5. Language 5<br>
+      </div>
+      <br>
+      
+       <div class="question">
+        <label>Languages that you use during research (Check all that apply):</label><br>
+          <input name="researchlang" value="1" type="checkbox">Language 1<br>
+          <input name="researchlang" value="2" type="checkbox">Language 2<br>
+          <input name="researchlang" value="3" type="checkbox">Language 3<br>
+          <input name="researchlang" value="4" type="checkbox">Language 4<br>
+          <input name="researchlang" value="5" type="checkbox">Language 5<br>
+          <input name="researchlang" value="6" type="checkbox">other</label><br>
+        </ul>
+      </div>
+      
+      <p>
+        <label>What are your thoughts on this topic?</label>
+        <textarea name="comment"></textarea>
+      </p>
+
+        <div class="button">
+          <button id="submit">Submit</button>
+      </div>
+
+      </div>
+      </div>
+    </form>
+  </div>
+  </div>
+</body>
